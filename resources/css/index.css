@@ -1,0 +1,74 @@
+hr.solid {
+    margin-top: 0;
+    border-top: 3px solid #bbb;
+  }
+
+#purpleBlock{
+    /*margin-bottom: 10px;*/
+    position: absolute;
+    width: 27px;
+    height: 9px;
+    left: 1px;
+    top: 10px;
+    
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+#titleCrio{
+    margin-top:5px;
+}
+
+
+#today{
+  font: size 20px;
+}
+
+#subT{
+    color: gray;
+    font-size: 17.5px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.dot {
+    height: 7.5px;
+    width: 7.5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 2px;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  a:hover, a:visited, a:link, a:active
+{   
+    color: black;
+    text-decoration: none;
+}
+
+.carousel-control-next{
+  justify-content: flex-end!important;
+  width: min-content!important;
+}
+
+.carousel-control-prev{
+  justify-content: flex-start!important;
+  width: min-content!important;
+}
+
+.card{
+  align-content: center!important;
+  justify-content: center!important;
+  max-width:75%;
+}
+
